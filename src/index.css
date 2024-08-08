@@ -125,6 +125,16 @@ section {
     color: var(--color-white);
 }
 
+.btn.g900 {
+    background-color: var(--color-gray-900);
+    color: var(--color-white);
+}
+
+.btn.g900:hover {
+    background: var(--color-gray-500);
+    color: var(--color-white);
+}
+
 .btn:hover {
     background: var(--color-gray-900);
     color: var(--color-white);

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function AuthorPosts() {
+const AuthorPosts = () => {
   return (
     <div>AuthorPosts</div>
   )
