@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Thumbnail1 from '../images/blog1.jpg'
 import Thumbnail2 from '../images/blog2.jpg'
+import PostItem from './PostItem'
 
 const DUMMY_POSTS = [
     {
@@ -27,7 +28,7 @@ const Posts = () => {
   return (
     <section className="posts">
         {
-            posts.map(()=> <PostItem/>)
+            posts.map(({id, thumbnail, category, title, description, authorID})=> <PostItem key={id} postID={id} thumbnail={thumbnail} category={category} title={title} description={description} authorID={authorID}/>)
         }
     </section>
   )
