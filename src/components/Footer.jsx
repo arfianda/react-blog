@@ -18,7 +18,7 @@ const Footer = () => {
       </ul>
 
       <div className="div footer__copyright">
-        <small>All Rights Reserved &copy; Copyright, Egator Tutorials.</small>
+        <small>All Rights Reserved &copy; Copyright, Arfi</small>
       </div>
     </footer>
   )
