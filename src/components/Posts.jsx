@@ -10,7 +10,7 @@ const DUMMY_POSTS = [
         id: '1',
         thumbnail: Thumbnail1,
         category: 'education',
-        title: 'BELAJARLAH SAMPAI KE NEGRO CINA',
+        title: 'BELAJARLAH SAMPAI KE NEGRI CINA',
         desc: 'Aku mau sprei gratis dan Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus egestas laoreet justo himenaeos hendrerit dignissim in penatibus massa. Efficitur volutpat magna velit, dolor. ',
         authorID: 3
     },
